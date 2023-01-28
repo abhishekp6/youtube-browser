@@ -11,7 +11,7 @@ class App extends React.Component{
         selectedVideo: null
     };
     componentDidMount(){
-        this.onTermSubmit('welcome')
+        this.onTermSubmit('Kailash Nadh')
     }
     onTermSubmit = async (term) => {
         const response = await youtube.get('/search',{
