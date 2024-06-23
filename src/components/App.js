@@ -2,7 +2,7 @@ import React from 'react';
 import Searchbar from './searchbar/Searchbar';
 import youtube from '../apis/Youtube';
 import VideoList from './video-list/VideoList';
-import VidepoDetail from './video-detail/VideoDetail';
+import VideoDetail from './video-detail/VideoDetail';
 import './App.css';
 
 class App extends React.Component{
@@ -34,7 +34,7 @@ class App extends React.Component{
                 <div className='ui grid'>
                     <div className='ui row'>
                         <div className='eleven wide column'>
-                            <VidepoDetail video={this.state.selectedVideo}/>
+                            <VideoDetail video={this.state.selectedVideo}/>
                         </div>
                         <div className='five wide column'>
                             <VideoList 
