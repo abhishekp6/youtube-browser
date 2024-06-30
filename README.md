@@ -11,16 +11,16 @@ The application is solely created with React and Semantic UI.
 
 # Steps to run the application on your local machine
 
-- ```Bash
+```Bash
   git clone https://github.com/abhishekp6/youtube-browser.git
   ```
-- ```Bash
+```Bash
   cd youtube-browser
   ```
-- ```Bash
+```Bash
   npm i
   ```
-- ```Bash
+```Bash
   npm run start
   ```
 
