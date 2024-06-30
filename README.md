@@ -11,12 +11,20 @@ The application is solely created with React and Semantic UI.
 
 # Steps to run the application on your local machine
 
-- Clone the repo to local machine.
-- cd yutube-player
-- npm i
-- npm run start
+- ```Bash
+  git clone https://github.com/abhishekp6/youtube-browser.git
+  ```
+- ```Bash
+  cd youtube-browser
+  ```
+- ```Bash
+  npm i
+  ```
+- ```Bash
+  npm run start
+  ```
 
 # Purpose
 
-Created this application while learning the fundamentals of React.
+Developed this application while learning the fundamentals of React.
 
